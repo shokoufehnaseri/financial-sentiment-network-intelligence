@@ -182,7 +182,7 @@ Model behavior was analyzed using:
 │   ├── 01_prepare_labeled_tweets.ipynb
 │   ├── 02_prepare_unlabeled_tweets.ipynb
 │   ├── 03_prepare_company_tweets.ipynb
-│   ├── 04_finetune_finbert_weak$gold.ipynb
+│   ├── 04_finetune_finbert_two_stage.ipynb
 │   ├── 05_split_large_dataset_into_chunks.ipynb
 │   ├── 06_large_scale_sentiment_inference.ipynb
 │   ├── 07_pagerank_network_analysis.ipynb
@@ -191,7 +191,7 @@ Model behavior was analyzed using:
 │
 │
 ├── src
-│   └── preprocess_tweet.py
+│   └── financial_tweet_preprocessor.py
 │
 ├── models
 │   ├── finbert_final_finetuned
@@ -200,6 +200,9 @@ Model behavior was analyzed using:
 │   └── results_gold
 │
 ├── figures
+│
+├── reports
+│   └── research_portfolio.pdf
 │
 ├── .gitignore
 │
