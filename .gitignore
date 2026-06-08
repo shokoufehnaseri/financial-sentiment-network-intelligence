@@ -1,77 +1,18 @@
-# ==========================================
-# DATASETS
-# ==========================================
+.DS_Store
+**/.DS_Store
 
-data/raw/*
-data/processed/*
-data/intermediate/*
-data/final/*
-
-# Keep folder structure
-!data/raw/.gitkeep
-!data/processed/.gitkeep
-!data/intermediate/.gitkeep
-!data/final/.gitkeep
-
-# ==========================================
-# LARGE DATA FILES
-# ==========================================
+data/raw/**
+data/processed/**
+data/intermediate/**
+data/final/**
+models/**
 
 *.csv
-*.parquet
-*.feather
-*.h5
-
-# Allow sample data if you create it later
-!data/sample/*.csv
-
-# ==========================================
-# FINBERT MODELS
-# ==========================================
-
-models/finbert_final_finetuned/*
-models/finbert_weak_finetuned/*
-models/results_weak/*
-models/results_gold/*
-
-# Keep folders visible
-!models/finbert_final_finetuned/.gitkeep
-!models/finbert_weak_finetuned/.gitkeep
-!models/results_weak/.gitkeep
-!models/results_gold/.gitkeep
-
-# HuggingFace / PyTorch files
 *.safetensors
 *.bin
 *.pt
 *.pth
 
-# Trainer checkpoints
-checkpoint-*/
-
-# ==========================================
-# JUPYTER
-# ==========================================
-
 .ipynb_checkpoints/
-
-# ==========================================
-# PYTHON
-# ==========================================
-
 __pycache__/
-*.py[cod]
-
-# ==========================================
-# ENVIRONMENTS
-# ==========================================
-
-venv/
-.venv/
-env/
-
-# ==========================================
-# MACOS
-# ==========================================
-
-.DS_Store
+*.pyc
