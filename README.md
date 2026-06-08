@@ -182,22 +182,26 @@ Model behavior was analyzed using:
 │   ├── 01_prepare_labeled_tweets.ipynb
 │   ├── 02_prepare_unlabeled_tweets.ipynb
 │   ├── 03_prepare_company_tweets.ipynb
-│   ├── 04_finetune_finbert_weak.ipynb
-│   ├── 05_finetune_finbert_gold.ipynb
+│   ├── 04_finetune_finbert_weak$gold.ipynb
+│   ├── 05_split_large_dataset_into_chunks.ipynb
 │   ├── 06_large_scale_sentiment_inference.ipynb
 │   ├── 07_pagerank_network_analysis.ipynb
-│   ├── 08_build_stock_prediction_dataset.ipynb
-│   ├── 09_stock_prediction_baseline.ipynb
-│   └── 10_stock_prediction_final.ipynb
+│   ├── 08_build_prediction_dataset.ipynb
+│   └── 09_stock_trend_prediction_final.ipynb
+│
 │
 ├── src
-│   └── financial_tweet_preprocessor.py
+│   └── preprocess_tweet.py
 │
 ├── models
-│   ├── finbert_weak
-│   └── finbert_gold
+│   ├── finbert_final_finetuned
+│   ├── finbert_weak_finetuned
+│   ├── results_weak
+│   └── results_gold
 │
 ├── figures
+│
+├── .gitignore
 │
 └── README.md
 ```
